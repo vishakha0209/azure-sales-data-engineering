@@ -1,0 +1,1 @@
+{"name":"PL_Raw_To_Bronze","properties":{"activities":[{"name":"Copy_Raw_To_Bronze","type":"Copy","dependsOn":[],"typeProperties":{"source":{"type":"DelimitedTextSource"},"sink":{"type":"DelimitedTextSink"}},"inputs":[{"referenceName":"DS_Raw_Sales","type":"DatasetReference"}],"outputs":[{"referenceName":"DS_Bronze_Sales","type":"DatasetReference"}]}]}}

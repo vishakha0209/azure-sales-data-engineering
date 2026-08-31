@@ -1,0 +1,9 @@
+order_date,region,category,product,quantity,unit_price,sales_amount
+2026-01-05,North,Electronics,Laptop,2,65000,130000
+2026-01-08,South,Furniture,Chair,5,4500,22500
+2026-01-15,West,Electronics,Monitor,3,18000,54000
+2026-02-03,East,Office Supplies,Printer,2,12000,24000
+2026-02-11,North,Electronics,Laptop,1,65000,65000
+2026-02-20,South,Furniture,Desk,4,9500,38000
+2026-03-02,West,Electronics,Keyboard,10,2200,22000
+2026-03-12,East,Office Supplies,Paper,20,450,9000

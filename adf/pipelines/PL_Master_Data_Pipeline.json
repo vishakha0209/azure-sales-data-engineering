@@ -1,0 +1,10 @@
+{
+  "name": "PL_Master_Data_Pipeline",
+  "properties": {
+    "activities": [
+      {"name":"Execute_Raw_To_Bronze","type":"ExecutePipeline","dependsOn":[],"typeProperties":{"pipeline":{"referenceName":"PL_Raw_To_Bronze","type":"PipelineReference"}}},
+      {"name":"Execute_Bronze_To_Silver","type":"ExecutePipeline","dependsOn":[{"activity":"Execute_Raw_To_Bronze","dependencyConditions":["Succeeded"]}],"typeProperties":{"pipeline":{"referenceName":"PL_Bronze_To_Silver","type":"PipelineReference"}}},
+      {"name":"Execute_Silver_To_Gold","type":"ExecutePipeline","dependsOn":[{"activity":"Execute_Bronze_To_Silver","dependencyConditions":["Succeeded"]}],"typeProperties":{"pipeline":{"referenceName":"PL_Silver_To_Gold","type":"PipelineReference"}}}
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "DS_Bronze_Sales",
+  "properties": {
+    "linkedServiceName": {"referenceName": "LS_ADLS_Generic", "type": "LinkedServiceReference"},
+    "type": "DelimitedText",
+    "typeProperties": {
+      "location": {"type": "AzureBlobFSLocation", "fileSystem": "bronze", "fileName": "sales_bronze.csv"},
+      "columnDelimiter": ",",
+      "escapeChar": "\",
+      "firstRowAsHeader": true,
+      "quoteChar": "\""
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"name":"PL_Silver_To_Gold","properties":{"activities":[{"name":"Copy_Silver_To_Gold","type":"Copy","dependsOn":[],"typeProperties":{"source":{"type":"DelimitedTextSource"},"sink":{"type":"DelimitedTextSink"}},"inputs":[{"referenceName":"DS_Silver_Sales","type":"DatasetReference"}],"outputs":[{"referenceName":"DS_Gold_Sales","type":"DatasetReference"}]}]}}
