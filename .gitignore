@@ -1,8 +1,0 @@
-.env
-*.key
-*.pem
-*.pfx
-secrets.json
-credentials.json
-.azure/
-.vscode/
